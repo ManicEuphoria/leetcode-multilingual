@@ -3,7 +3,6 @@ class Solution:
         head, tail = 0, len(needle)
 
         while tail <= len(haystack):
-            print(head, "->", haystack[head:tail])
             if haystack[head:tail] == needle:
                 return head
             else:

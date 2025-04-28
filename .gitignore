@@ -4,3 +4,4 @@ tmp/
 .rspec
 TAGS
 .DS_Store
+.byebug_history
